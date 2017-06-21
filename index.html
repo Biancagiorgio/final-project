@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="reset.css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" />
+
+
+
+<header>
+
+  <h1>
+    Brick House Dog Walking Services
+  </h1>
+
+
+<div class="slideshow">
+  <img class="mySlides" src="pictures/apollo.JPG">
+  <img class="mySlides" src="pictures/bulldog.JPG">
+  <img class="mySlides" src="pictures/koz.JPG">
+  <img class="mySlides" src="pictures/rotty.JPG">
+  <img class="mySlides" src="pictures/ben.jpg">
+  <div class="w3-center w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+  </div>
+<script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</header>
+
+<body>
+
+<article>
+  <p>
+Brick House Dog Walking Services is commited to creating a safe and fun walking enviroment for your furry friend!
+  </p>
+</article>
+
+
+<section class="team">
+<a name="team"></a>
+    <h2>Meet the Team</h2>
+
+
+<a name="services"></a>
+    <h2>Our Services</h2>
+
+
+<a name="testimonials"></a>
+    <h2>Testimonials</h2>
+
+</section>
+</body>
+
+<footer>
+  <article>
+    <p>
+      ©Copyright 2017 Brick House Dog Walking Services
+    </p>
+
+    <p>
+      416-735-2922 <a href="mailto:info@brickhouse.com">info@brickhouse.com</a>
+    </p>
+
+    <p class="muted-text">
+      Bowmanville, Ontario
+    </p>
+  </article>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="https://facebook.com" target="_blank" class="navlink"><i class="fa fa-fw fa-facebook"></i> <span class="social-link-words">Facebook</span></a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" class="navlink"><i class="fa fa-fw fa-twitter"></i> <span class="social-link-words">Twitter</span></a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" class="navlink"><i class="fa fa-fw fa-instagram"></i> <span class="social-link-words">Instagram</span></a>
+      </li>
+      <li>
+        <a href="https://pinterest.com" target="_blank" class="navlink"><i class="fa fa-fw fa-pinterest"></i> <span class="social-link-words">Pinterest</span></a>
+      </li>
+      <li>
+        <a href="https://plus.google.com" target="_blank" class="navlink"><i class="fa fa-fw fa-google-plus"></i> <span class="social-link-words">Google+</span></a>
+      </li>
+    </ul>
+  </article>
+</footer>
+
+</div>
+</header>
+</html>

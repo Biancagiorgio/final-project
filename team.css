@@ -1,0 +1,8 @@
+.team {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 1em;
+  color: #0E0F0F;
+  display: inline-block;
+  max-width: 100%;
+}
