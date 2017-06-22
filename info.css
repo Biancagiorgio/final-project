@@ -1,8 +1,13 @@
-.team {
+p {
   font-weight: bold;
   font-size: 35px;
   margin-bottom: 1em;
   color: #0E0F0F;
   display: inline-block;
   max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  margin: auto;
 }
