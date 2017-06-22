@@ -1,13 +1,26 @@
+header{
+  text-align: center;
+}
+
+
+
+
+
 p {
   font-weight: bold;
-  font-size: 35px;
-  margin-bottom: 1em;
+  font-size: 20px;
   color: #0E0F0F;
   display: inline-block;
-  max-width: 100%;
+  justify-content: space-around;
+  text-align: center;
 }
 
 img {
-  max-width: 100%;
+  max-width: 33%;
   margin: auto;
+}
+
+.michele{
+  display: flex;
+  justify-content: space-around;
 }
