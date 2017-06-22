@@ -17,7 +17,7 @@ h1 {
  display: block;
  max-width: 100%;
  padding: 1em;
- font-size: 30px;
+ font-size: 40px;
  font-family: 'Barrio';
  text-align: center;
 }
@@ -26,11 +26,11 @@ header {
   max-width: 100%;
 }
 
-img {
+img{
   max-width: 100%;
-  margin: auto;
-
+  margin-bottom: 2em;
 }
+
 article {
   max-width: 100%;
   text-align: center;
@@ -41,27 +41,35 @@ article {
 
 .team , .services , .testimonials{
   text-align: center;
-  padding: 1em 0 1em;
+  text-decoration: none;
   font-family: 'Barrio';
   font-size: 20px;
   background-color: #3B341F;
   color: white;
+  display: block;
+  margin: 1em 0 1em;
+  padding-top: 1em;
+}
+
+.copyright {
+font-size: 10px;
 }
 
 footer {
   font-size: 10px;
   background-color: #A5CBC3;
   max-width: 100%;
-  padding-top: 1em;
+  padding: 1em 1em;
 }
 
 nav ul {
   padding-top: 1em;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 100%;
   font-size: 16px;
+  background-color: #3B341F;
 }
 
 nav ul li {

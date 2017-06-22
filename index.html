@@ -10,54 +10,27 @@
 
 
 <header>
-
   <h1>
-    Brick House Dog Walking Services 'n stuff.
+    Brick House Dog Walking Services
   </h1>
 
+<article>
+<nav>
+  <ul>
+    <li>
+      <a href="https://facebook.com" target="_blank" class="navlink"><i class="fa fa-fw fa-facebook"></i> <span class="social-link-words">Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://twitter.com" target="_blank" class="navlink"><i class="fa fa-fw fa-twitter"></i> <span class="social-link-words">Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://instagram.com" target="_blank" class="navlink"><i class="fa fa-fw fa-instagram"></i> <span class="social-link-words">Instagram</span></a>
+    </li>
+  </ul>
+</article>
 
-<div class="slideshow">
-  <img class="mySlides" src="pictures/apollo.JPG">
-  <img class="mySlides" src="pictures/bulldog.JPG">
-  <img class="mySlides" src="pictures/koz.JPG">
-  <img class="mySlides" src="pictures/rotty.JPG">
-  <img class="mySlides" src="pictures/ben.jpg">
-  <div class="w3-center w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
-  </div>
-<script>
 
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
+  <img src="pictures/rotty.JPG" alt="Brick House" class="mainpic" />
 
 </header>
 
@@ -69,25 +42,31 @@ Brick House Dog Walking Services is commited to creating a safe and fun walking 
   </p>
 </article>
 
-
+<!-- /* <a id="team"></a> -->
 <section class="team">
-<a name="team"></a>
-    <h2>Meet the Team</h2>
+<ul class="headerlist">
+<li><a href="info.html/#team">Our Team</a></li>
+</ul>
 
 
-<a name="services"></a>
-    <h2>Our Services</h2>
+<section class="services">
+<ul class="headerlist">
+<li><a href="info.html">Our Services</a></li>
+</ul>
 
 
-<a name="testimonials"></a>
-    <h2>Testimonials</h2>
+<section class="testimonials">
+<ul class="headerlist">
+<li><a href="info.html">Testimonials</a></li>
+</ul>
+
 
 </section>
 </body>
 
 <footer>
   <article>
-    <p>
+    <p class="copyright">
       ©Copyright 2017 Brick House Dog Walking Services
     </p>
 
