@@ -1,13 +1,64 @@
-p {
-  font-weight: bold;
-  font-size: 35px;
-  margin-bottom: 1em;
-  color: #0E0F0F;
-  display: inline-block;
-  max-width: 100%;
+@font-face {
+  font-family: 'Barrio';
+  src: url('css/Barrio-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-img {
+@font-face {
+  font-family: 'MuktaVaani';
+  src: url('css/MuktaVaani-Regular.ttf') format('truetype');
+}
+
+header {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Barrio';
+  color: #440D00;
+  padding: 1em 0 1em;
+}
+
+
+p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'MuktaVaani';
+  padding: 1em;
+}
+
+body{
+  text-align: center;
+  background-color: #B2BDB7;
+}
+
+.michele img {
+  max-width: 500px;
+  margin-bottom: 10px;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
+}
+
+.bianca img {
+  max-width: 500px;
+  margin: 4em;
+  margin-bottom: 10px;
+  margin-top: 1em;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
+}
+
+.adam img {
+  max-width: 500px;
+  max-height: 300px;
+  margin: 5em;
+  box-shadow: 2px 0px 5px 2px #666;
+  margin-bottom: 10px;
+  margin-top: 1em;
+}
+
+
+.mySlides img{
   max-width: 100%;
-  margin: auto;
+  padding: 2em 0 1em;
+  margin-bottom: 2em;
 }
