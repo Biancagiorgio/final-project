@@ -20,41 +20,45 @@ header {
 
 
 p {
-  font-weight: bold;
-  font-size: 20px;
-  color: #0E0F0F;
-  display: inline-block;
-  justify-content: space-around;
+  font-size: 16px;
   text-align: center;
+  font-family: 'MuktaVaani';
+  padding: 1em;
+}
+
+body{
+  text-align: center;
+  background-color: #B2BDB7;
 }
 
 .michele img {
-  max-width: 50%;
+  max-width: 500px;
   margin-bottom: 10px;
-  max-height: 350px;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
 }
 
 .bianca img {
-  max-width: 50%;
+  max-width: 500px;
+  margin: 4em;
   margin-bottom: 10px;
+  margin-top: 1em;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
 }
 
 .adam img {
-  max-width: 50%;
+  max-width: 500px;
+  max-height: 300px;
+  margin: 5em;
+  box-shadow: 2px 0px 5px 2px #666;
   margin-bottom: 10px;
-  max-height: 350px;
+  margin-top: 1em;
 }
+
 
 .mySlides img{
   max-width: 100%;
   padding: 2em 0 1em;
   margin-bottom: 2em;
-}
-
-
-.michele , .bianca , .adam {
-  display: flex;
-  justify-content: space-around;
-  font-size: 12px;
-  font-family: 'MuktaVaani';
 }
