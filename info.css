@@ -14,9 +14,14 @@ header {
   text-align: center;
   font-size: 35px;
   font-family: 'Barrio';
+<<<<<<< HEAD
   color: white;
   padding: 1em 0 1em;
   background-color: #ABABAB;
+=======
+  color: #440D00;
+  padding: 1em 0 1em;
+>>>>>>> master
 }
 
 
@@ -25,6 +30,7 @@ p {
   text-align: center;
   font-family: 'MuktaVaani';
   padding: 1em;
+<<<<<<< HEAD
 }
 
 body{
@@ -87,6 +93,38 @@ body{
 
 .services tr:hover {
   background-color: #2BA7A8;
+=======
+}
+
+body{
+  text-align: center;
+  background-color: #B2BDB7;
+}
+
+.michele img {
+  max-width: 500px;
+  margin-bottom: 10px;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
+}
+
+.bianca img {
+  max-width: 500px;
+  margin: 4em;
+  margin-bottom: 10px;
+  margin-top: 1em;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
+}
+
+.adam img {
+  max-width: 500px;
+  max-height: 300px;
+  margin: 5em;
+  box-shadow: 2px 0px 5px 2px #666;
+  margin-bottom: 10px;
+  margin-top: 1em;
+>>>>>>> master
 }
 
 
