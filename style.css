@@ -22,8 +22,7 @@ h1 {
  text-align: center;
 }
 
-header {
-  max-width: 100%;
+header {  max-width: 100%;
 }
 
 img{
@@ -33,46 +32,15 @@ img{
 }
 
 
-article {
-  max-width: 100%;
-  text-align: center;
-  font-family: 'MuktaVaani';
-  font-size: 16px;
-  padding-bottom: 0.5em;
-}
-
-.team , .services , .testimonials{
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Barrio';
-  font-size: 20px;
-  background-color: #AEC6C6;
-  color: white;
-  display: block;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.copyright {
-font-size: 10px;
-}
-
-footer {
-  font-size: 10px;
-  background-color: #ABABAB;
-  max-width: 100%;
-  padding: 1em;
-}
-
 nav ul {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  list-style: none;
   display: flex;
   justify-content: space-around;
   max-width: 100%;
   font-size: 16px;
   background-color: #ABABAB;
+  text-decoration: none;
 }
 
 nav ul li {
@@ -85,5 +53,39 @@ nav ul li {
 .navlink {
   color: white;
   text-decoration: none;
+}
+
+ p{
+  text-align: center;
+  padding-bottom: 1.5em;
+  font-family: 'MuktaVaani';
+}
+
+.team , .services , .testimonials{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Barrio';
+  font-size: 26px;
+  background-color: #AEC6C6;
+  color: white;
+  display: block;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+
+.copyright {
+font-size: 10px;
+background-color: #ABABAB;
+padding-top: 1em;
+}
+
+.info {
+  max-width: 100%;
+  text-align: center;
+  font-family: 'MuktaVaani';
+  font-size: 16px;
+  padding: 0.5em;
+  background-color: #ABABAB;
 
 }
