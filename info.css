@@ -14,14 +14,11 @@ header {
   text-align: center;
   font-size: 35px;
   font-family: 'Barrio';
-<<<<<<< HEAD
   color: white;
   padding: 1em 0 1em;
   background-color: #ABABAB;
-=======
   color: #440D00;
   padding: 1em 0 1em;
->>>>>>> master
 }
 
 
@@ -30,7 +27,6 @@ p {
   text-align: center;
   font-family: 'MuktaVaani';
   padding: 1em;
-<<<<<<< HEAD
 }
 
 body{
@@ -93,7 +89,6 @@ body{
 
 .services tr:hover {
   background-color: #2BA7A8;
-=======
 }
 
 body{
@@ -124,12 +119,9 @@ body{
   box-shadow: 2px 0px 5px 2px #666;
   margin-bottom: 10px;
   margin-top: 1em;
->>>>>>> master
 }
 
 
 .mySlides img{
   max-width: 100%;
-  padding: 2em 0 1em;
-  margin-bottom: 2em;
 }
