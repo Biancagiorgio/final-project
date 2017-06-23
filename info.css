@@ -14,8 +14,14 @@ header {
   text-align: center;
   font-size: 35px;
   font-family: 'Barrio';
+<<<<<<< HEAD
+  color: white;
+  padding: 1em 0 1em;
+  background-color: #ABABAB;
+=======
   color: #440D00;
   padding: 1em 0 1em;
+>>>>>>> master
 }
 
 
@@ -24,6 +30,70 @@ p {
   text-align: center;
   font-family: 'MuktaVaani';
   padding: 1em;
+<<<<<<< HEAD
+}
+
+body{
+  text-align: center;
+  background-color: #AEC6C6;
+}
+
+.michele img {
+  max-width: 500px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
+}
+
+.bianca img {
+  max-width: 500px;
+  margin: 4em;
+  margin-bottom: 10px;
+  margin-top: 1em;
+  max-height: 200px;
+  box-shadow: 2px 0px 5px 2px #666;
+}
+
+.adam img {
+  max-width: 500px;
+  max-height: 300px;
+  margin: 5em;
+  box-shadow: 2px 0px 5px 2px #666;
+  margin-bottom: 10px;
+  margin-top: 1em;
+}
+
+.services table, .services th, .services td {
+  border: 1px solid #c8c8c8;
+  font-family: 'MuktaVaani';
+}
+
+.services table {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.services th {
+  background: #798086;
+  text-align: center;
+  font-weight: bold;
+  padding: 9px 0;
+}
+
+.services td {
+  width: 33%;
+  text-align: center;
+  padding: .5em;
+}
+
+..services td:first-child {
+  text-align: left;
+}
+
+.services tr:hover {
+  background-color: #2BA7A8;
+=======
 }
 
 body{
@@ -54,6 +124,7 @@ body{
   box-shadow: 2px 0px 5px 2px #666;
   margin-bottom: 10px;
   margin-top: 1em;
+>>>>>>> master
 }
 
 

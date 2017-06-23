@@ -12,8 +12,8 @@
 
 
 h1 {
- background-color: #440D00;
- color: white;
+ background-color: #798086;
+ color: #AEC6C6;
  display: block;
  max-width: 100%;
  padding: 1em;
@@ -27,9 +27,11 @@ header {
 }
 
 img{
-  max-width: 100%;
   margin-bottom: 2em;
+  max-width: 90%;
+  padding: 1em;
 }
+
 
 article {
   max-width: 100%;
@@ -44,11 +46,11 @@ article {
   text-decoration: none;
   font-family: 'Barrio';
   font-size: 20px;
-  background-color: #3B341F;
+  background-color: #AEC6C6;
   color: white;
   display: block;
-  margin: 1em 0 1em;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .copyright {
@@ -57,19 +59,20 @@ font-size: 10px;
 
 footer {
   font-size: 10px;
-  background-color: #A5CBC3;
+  background-color: #ABABAB;
   max-width: 100%;
-  padding: 1em 1em;
+  padding: 1em;
 }
 
 nav ul {
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   list-style: none;
   display: flex;
   justify-content: space-around;
   max-width: 100%;
   font-size: 16px;
-  background-color: #3B341F;
+  background-color: #ABABAB;
 }
 
 nav ul li {
@@ -82,4 +85,5 @@ nav ul li {
 .navlink {
   color: white;
   text-decoration: none;
+
 }
