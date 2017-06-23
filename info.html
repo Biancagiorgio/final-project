@@ -105,7 +105,7 @@
 </header>
 
 
-  <div class="w3-content w3-display-container">
+
     <div class="w3-display-container mySlides">
   <img src="pictures/apollo.JPG" style="width:100%">
   <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
@@ -113,7 +113,7 @@
     Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
   </div>
 
-  <div class="w3-content w3-display-container">
+
     <div class="w3-display-container mySlides">
   <img src="pictures/bulldog.JPG" style="width:100%">
   <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
@@ -121,7 +121,7 @@
     Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
   </div>
 
-  <div class="w3-content w3-display-container">
+
     <div class="w3-display-container mySlides">
   <img src="pictures/koz.JPG" style="width:100%">
   <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
@@ -129,36 +129,18 @@
     Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
   </div>
 
-  <div class="w3-content w3-display-container">
+
     <div class="w3-display-container mySlides">
   <img src="pictures/ben.jpg" style="width:100%">
   <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
     We wouldnt call anyone but Michele! Apollo LOVES when it is walk time.
     Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
-  </div>
+</div>
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</img>
 
 
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
