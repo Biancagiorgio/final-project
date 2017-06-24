@@ -83,7 +83,7 @@ body{
   padding: .5em;
 }
 
-..services td:first-child {
+.services td:first-child {
   text-align: left;
 }
 
@@ -103,9 +103,29 @@ text-align: center;
 @media (min-width: 600px){
 
 header{
-
+font-size: 74px;
 }
 
+p{
+  font-size: 30px;
 }
 
+.michele img {
+  max-width: 1100px;
+  max-height: 400px;
+}
+
+.bianca img{
+  max-width: 1100px;
+  max-height: 400px;
+}
+
+.adam img{
+  max-width: 1600px;
+  max-height: 400px;
+}
+
+.services table, .services th, .services td {
+  font-size: 24px;
+}
 }
