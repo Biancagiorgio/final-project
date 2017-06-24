@@ -96,9 +96,23 @@ body{
   background-color: #B2BDB7;
 }
 
+
 footer{
 text-align: center;
 }
+
+.info{
+  background-color: #ABABAB;
+}
+
+.copyright{
+  font-size: 24px;
+}
+
+.contact{
+   font-size: 36px;
+}
+
 
 @media (min-width: 600px){
 
@@ -128,4 +142,32 @@ p{
 .services table, .services th, .services td {
   font-size: 24px;
 }
+}
+@media (min-width: 1140px){
+  .michele img {
+    max-width: 1140px;
+    max-height: 400px;
+  }
+
+  .bianca img{
+    max-width: 1200px;
+    max-height: 400px;
+  }
+
+  .adam img{
+    max-width: 1800px;
+    max-height: 400px;
+  }
+
+  .info{
+    background-color: #ABABAB;
+  }
+
+  .copyright{
+    font-size: 18px;
+  }
+
+  .contact{
+     font-size: 24px;
+  }
 }
