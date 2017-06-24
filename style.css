@@ -22,7 +22,8 @@ h1 {
  text-align: center;
 }
 
-header {  max-width: 100%;
+header {
+  max-width: 100%;
 }
 
 img{
@@ -63,29 +64,71 @@ nav ul li {
 
 .team , .services , .testimonials{
   text-align: center;
-  text-decoration: none;
   font-family: 'Barrio';
   font-size: 26px;
   background-color: #AEC6C6;
-  color: white;
+  color: #FFFFFF;
   display: block;
   padding-top: 2em;
   padding-bottom: 1em;
 }
 
+.info{
+  background-color: #ABABAB;
+}
 
-.copyright {
+.copyright{
 font-size: 10px;
 background-color: #ABABAB;
 padding-top: 1em;
 }
 
-.info {
+.contact{
   max-width: 100%;
   text-align: center;
   font-family: 'MuktaVaani';
   font-size: 16px;
   padding: 0.5em;
   background-color: #ABABAB;
+}
 
+@media (min-width: 600px){
+
+h1{
+    font-size: 75px;
+  }
+
+nav ul {
+font-size: 36px;
+}
+
+nav ul li{
+  font-size: 24px;
+}
+
+img {
+margin-left: 15em;
+margin-top: 2em;
+box-shadow: 2px 0px 5px 2px #666;
+}
+
+p{
+  font-size: 32px;
+}
+
+.team , .services , .testimonials{
+  font-size: 56px;
+  text-decoration: none;
+}
+
+.info{
+  background-color: #ABABAB;
+}
+
+.copyright{
+  font-size: 24px;
+}
+
+.contact{
+   font-size: 36px;
 }
