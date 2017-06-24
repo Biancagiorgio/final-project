@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="reset.css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="info.css" />
-<link rel="javascript" href="jscript.js" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </html>
 
@@ -105,42 +104,95 @@
 </header>
 
 
+<div class="w3-container">
 
-    <div class="w3-display-container mySlides">
-  <img src="pictures/apollo.JPG" style="width:100%">
-  <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
-    We wouldnt call anyone but Michele! Apollo LOVES when it is walk time.
-    Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
-  </div>
+<div class="w3-content w3-display-container">
 
-
-    <div class="w3-display-container mySlides">
-  <img src="pictures/bulldog.JPG" style="width:100%">
-  <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
-    We wouldnt call anyone but Michele! Apollo LOVES when it is walk time.
-    Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
-  </div>
-
-
-    <div class="w3-display-container mySlides">
-  <img src="pictures/koz.JPG" style="width:100%">
-  <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
-    We wouldnt call anyone but Michele! Apollo LOVES when it is walk time.
-    Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
-  </div>
-
-
-    <div class="w3-display-container mySlides">
+<div class="w3-display-container mySlides">
   <img src="pictures/ben.jpg" style="width:100%">
-  <div class="w3-display-bottom w3-container w3-padding-16 w3-white">
-    We wouldnt call anyone but Michele! Apollo LOVES when it is walk time.
-    Michele has the skills and knowledge to handle Apollo'a pulling tendencies.
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Ben adores Bianca! He is a very timid dog and we were extremely nervous to
+    hire a dog walker. After seeing Bianca work with Ben on his walking and
+    confidence skills, we knew we didn't make a mistake!
+    -Dawn and Steve
+  </div>
 </div>
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+<div class="w3-display-container mySlides">
+  <img src="pictures/bulldog.JPG" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Tyson loves a good, long walk, so when I transitioned into a full time job, I knew
+    I would need to find someone trustworthy and reliable. A friend recommended
+    Adam and Tyson and I could not be more grateful! Thank you Adam!
+    -Victoria
+
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="pictures/koz.JPG" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    I couldn't have asked for a better walker for Kozmo than Bianca.
+    She is very patient and knows exactly when our Kozmo has had enough outdoor time.
+    Thank you Bianca!
+    -Kristina and Taylor
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="pictures/brick.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Brick is the perfect mix of power and playful so when I decided to hire
+    a dog walker, it was important to find someone who was able to handle Brick on and
+    off leash. Adam is nothing but a pleasure to work with and Brick just loves him.
+    -Tammi
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="picutres/apollo.JPG" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+  We were extremely nervous finding someone to help with walking Apollo. Since he has typical
+  boxer tendancies, I was not sure I was able to trust someone walking such a high energy pup.
+  Michele proved me wrong, she is truly one of a kind.
+  -Roxanne and Eddy
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="picutres/twins.JPG" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+Cheech and Chong are as lazy as lazy gets and although walk time is not thier favourite, Adam is able
+to persuade them into enjoying a stroll around the neighbourhood. Teach me your secrets Adam!!
+-Yoli
+  </div>
+</div>
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>
