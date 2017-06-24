@@ -132,3 +132,22 @@ p{
 .contact{
    font-size: 36px;
 }
+
+@media (min-width: 1140px){
+  img{
+    margin-bottom: 2em;
+    max-width: 100%;
+    align-items: center;
+  }
+  .info{
+    background-color: #ABABAB;
+  }
+
+  .copyright{
+    font-size: 18px;
+  }
+
+  .contact{
+     font-size: 24px;
+  }
+}
